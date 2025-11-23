@@ -66,7 +66,7 @@ Este projeto foi construído com foco em **performance**, **acessibilidade** e *
 
 ---
 
-## 📌 Padrão de Commits
+##  Padrão de Commits
 
 Este projeto segue o padrão **Conventional Commits**:
 - `feat`: Nova funcionalidade
