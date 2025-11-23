@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp e Vídeo - IncluIA</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html"
+                    style="display: flex; align-items: center; gap: 0.5rem; color: var(--primary-color);">
+                    <i class="fa-solid fa-hands-holding-circle"></i>
+                    <span>IncluIA</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#modulos">Outras Aulas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 2rem 0;">
+            <div class="container">
+                <h1>WhatsApp e Vídeo</h1>
+                <p>Conecte-se com quem você ama.</p>
+            </div>
+        </section>
+
+        <section class="container" style="padding: 2rem 1rem;">
+            <div class="content-card"
+                style="background: white; padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-sm);">
+                <h2>1. Enviando Áudios</h2>
+                <p>Para falar sem digitar, segure o ícone do microfone verde. Solte para enviar. Se quiser cancelar,
+                    deslize para a esquerda.</p>
+
+                <h2>2. Chamadas de Vídeo</h2>
+                <p>Quer ver a pessoa? Toque no ícone da câmera no topo da conversa.</p>
+
+                <div class="alert-box"
+                    style="background: #EFF6FF; border-left: 4px solid #2563EB; padding: 1rem; margin: 1rem 0;">
+                    <strong>Dica:</strong> Use o Wi-Fi para fazer chamadas de vídeo, pois elas gastam muita internet do
+                    celular (4G).
+                </div>
+            </div>
+
+            <div class="ai-help" style="margin-top: 2rem; text-align: center;">
+                <h3>Vamos praticar?</h3>
+                <p>A Clara pode simular uma conversa com você.</p>
+            </div>
+        </section>
+
+        <section id="assistente" class="ai-section">
+            <div class="container ai-container">
+                <div class="ai-info">
+                    <h2>Tire suas dúvidas</h2>
+                </div>
+                <div class="chat-interface">
+                    <div class="chat-header">
+                        <div class="avatar"><i class="fa-solid fa-robot"></i></div>
+                        <div class="chat-title">
+                            <h4>Clara</h4><span>Assistente</span>
+                        </div>
+                    </div>
+                    <div class="chat-body" id="chat-body">
+                        <div class="message bot">
+                            <p>Oi! Quer ajuda para mandar uma mensagem ou fazer uma ligação?</p>
+                        </div>
+                    </div>
+                    <div class="chat-input-area">
+                        <input type="text" id="user-input" placeholder="Digite aqui..." aria-label="Digite sua dúvida">
+                        <button id="send-btn" aria-label="Enviar"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

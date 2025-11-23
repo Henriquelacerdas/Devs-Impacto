@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços Públicos - IncluIA</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html"
+                    style="display: flex; align-items: center; gap: 0.5rem; color: var(--primary-color);">
+                    <i class="fa-solid fa-hands-holding-circle"></i>
+                    <span>IncluIA</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#modulos">Outras Aulas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 2rem 0;">
+            <div class="container">
+                <h1>Serviços Públicos (Gov.br)</h1>
+                <p>Acesse seus direitos sem sair de casa.</p>
+            </div>
+        </section>
+
+        <section class="container" style="padding: 2rem 1rem;">
+            <div class="content-card"
+                style="background: white; padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-sm);">
+                <h2>1. O que é o Gov.br?</h2>
+                <p>É a chave para acessar o INSS, Carteira de Trabalho Digital e Receita Federal. Você só precisa de um
+                    cadastro.</p>
+
+                <h2>2. Como recuperar a senha</h2>
+                <p>Se esqueceu a senha, não se preocupe. Você pode recuperar usando o reconhecimento facial pelo celular
+                    ou pelo seu banco.</p>
+
+                <div class="alert-box"
+                    style="background: #FEF3C7; border-left: 4px solid #D97706; padding: 1rem; margin: 1rem 0;">
+                    <strong>Atenção:</strong> Anote sua senha em um caderno que fica em casa. Não compartilhe com
+                    estranhos.
+                </div>
+            </div>
+
+            <div class="ai-help" style="margin-top: 2rem; text-align: center;">
+                <h3>Precisa de ajuda com o cadastro?</h3>
+                <p>A Clara te guia passo a passo.</p>
+            </div>
+        </section>
+
+        <section id="assistente" class="ai-section">
+            <div class="container ai-container">
+                <div class="ai-info">
+                    <h2>Tire suas dúvidas</h2>
+                </div>
+                <div class="chat-interface">
+                    <div class="chat-header">
+                        <div class="avatar"><i class="fa-solid fa-robot"></i></div>
+                        <div class="chat-title">
+                            <h4>Clara</h4><span>Assistente Gov.br</span>
+                        </div>
+                    </div>
+                    <div class="chat-body" id="chat-body">
+                        <div class="message bot">
+                            <p>Olá! O Gov.br pode parecer complicado, mas eu facilito para você. Qual sua dúvida?</p>
+                        </div>
+                    </div>
+                    <div class="chat-input-area">
+                        <input type="text" id="user-input" placeholder="Digite aqui..." aria-label="Digite sua dúvida">
+                        <button id="send-btn" aria-label="Enviar"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

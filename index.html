@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IncluIA - Aprenda Digital com Inteligência Artificial</title>
+    <meta name="description"
+        content="Plataforma de inclusão digital para idosos e iniciantes. Aprenda a usar a internet com segurança e facilidade com a ajuda da nossa IA.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fa-solid fa-hands-holding-circle"></i>
+                <span>IncluIA</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#modulos">Aulas</a></li>
+                    <li><a href="#assistente">Assistente IA</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+            <button class="btn-primary" id="btn-comecar">Começar Agora</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>A tecnologia é para <span class="highlight">todos</span>.</h1>
+                    <p>Aprenda a usar o celular, a internet e aplicativos com segurança e sem medo. Nossa Inteligência
+                        Artificial te ajuda passo a passo.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary btn-lg" onclick="scrollToSection('modulos')">Quero Aprender</button>
+                        <button class="btn-secondary btn-lg" onclick="scrollToSection('assistente')">Falar com a
+                            IA</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modulos" class="modules-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>O que você quer aprender hoje?</h2>
+                    <p>Escolha um tema e comece agora mesmo.</p>
+                </div>
+                <div class="modules-grid">
+                    <div class="module-card" data-module="seguranca" onclick="window.location.href='seguranca.html'"
+                        style="cursor: pointer;">
+                        <div class="icon-box security">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3>Segurança Digital</h3>
+                        <p>Como identificar golpes, criar senhas fortes e navegar sem riscos.</p>
+                        <button class="btn-text">Começar Aula <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="module-card" data-module="whatsapp" onclick="window.location.href='whatsapp.html'"
+                        style="cursor: pointer;">
+                        <div class="icon-box communication">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp e Vídeo</h3>
+                        <p>Mande mensagens, fotos e faça chamadas de vídeo com a família.</p>
+                        <button class="btn-text">Começar Aula <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="module-card" data-module="gov" onclick="window.location.href='gov.html'"
+                        style="cursor: pointer;">
+                        <div class="icon-box public">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <h3>Serviços Públicos</h3>
+                        <p>Acesse o Gov.br, INSS e outros serviços sem sair de casa.</p>
+                        <button class="btn-text">Começar Aula <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="assistente" class="ai-section">
+            <div class="container ai-container">
+                <div class="ai-info">
+                    <h2>Sua Assistente Pessoal</h2>
+                    <p>Tem alguma dúvida específica? Pergunte para a <strong>Clara</strong>, nossa inteligência
+                        artificial. Ela explica tudo com paciência e clareza.</p>
+                    <ul class="ai-features">
+                        <li><i class="fa-solid fa-check"></i> Respostas simples e diretas</li>
+                        <li><i class="fa-solid fa-check"></i> Disponível 24h por dia</li>
+                        <li><i class="fa-solid fa-check"></i> Pode repetir quantas vezes precisar</li>
+                    </ul>
+                </div>
+                <div class="chat-interface">
+                    <div class="chat-header">
+                        <div class="avatar">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <div class="chat-title">
+                            <h4>Clara</h4>
+                            <span>Assistente Virtual</span>
+                        </div>
+                    </div>
+                    <div class="chat-body" id="chat-body">
+                        <div class="message bot">
+                            <p>Olá! Eu sou a Clara. Como posso te ajudar a usar a internet hoje?</p>
+                        </div>
+                    </div>
+                    <div class="chat-input-area">
+                        <input type="text" id="user-input" placeholder="Digite sua dúvida aqui..."
+                            aria-label="Digite sua dúvida">
+                        <button id="send-btn" aria-label="Enviar"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-hands-holding-circle"></i>
+                <span>IncluIA</span>
+            </div>
+            <p>Desenvolvido para o Hackathon Devs de Impacto 2025. Tecnologia para o bem social.</p>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
