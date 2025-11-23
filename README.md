@@ -1,27 +1,25 @@
-# IncluIA - Aprenda Digital com Inteligência Artificial 👵👴📱
+# IncluIA - Aprenda Digital com Inteligência Artificial 
 
 > **Hackathon Devs de Impacto 2025** - Solução de Inclusão Digital
 
-![IncluIA Banner](https://via.placeholder.com/1200x400?text=IncluIA+-+Tecnologia+para+Todos)
-
-## 📄 Sobre o Projeto
+##Sobre o Projeto
 
 O **IncluIA** é uma plataforma web desenvolvida para combater a exclusão digital na terceira idade. Combinando um design acessível (WCAG) com uma **Assistente Virtual Inteligente ("Clara")**, oferecemos um ambiente seguro e paciente onde idosos podem aprender a navegar na internet, usar redes sociais e acessar serviços públicos sem medo.
 
-### 🎯 O Problema
+### O Problema
 Milhões de idosos dependem de terceiros para realizar tarefas digitais básicas, ficando vulneráveis a golpes e isolamento social. A falta de paciência de familiares e a complexidade das interfaces atuais são barreiras enormes.
 
-### 💡 A Solução
+### A Solução
 Uma plataforma que ensina **passo a passo**, com uma IA que tira dúvidas 24h por dia, repetindo as explicações quantas vezes forem necessárias, de forma humanizada e contextual.
 
 ---
 
-## 🚀 Funcionalidades Principais
+## Funcionalidades Principais
 
 - **Módulos de Aprendizado**:
-  - 🛡️ **Segurança Digital**: Senhas fortes, identificação de golpes e phishing.
-  - 💬 **WhatsApp e Comunicação**: Envio de áudios, chamadas de vídeo e grupos.
-  - 🏛️ **Serviços Públicos**: Acesso ao Gov.br, INSS e cidadania digital.
+  -  **Segurança Digital**: Senhas fortes, identificação de golpes e phishing.
+  -  **WhatsApp e Comunicação**: Envio de áudios, chamadas de vídeo e grupos.
+  -  **Serviços Públicos**: Acesso ao Gov.br, INSS e cidadania digital.
 - **Assistente Virtual Clara**:
   - Chatbot integrado com respostas contextuais.
   - Sugestões proativas baseadas na navegação do usuário.
@@ -31,7 +29,7 @@ Uma plataforma que ensina **passo a passo**, com uma IA que tira dúvidas 24h po
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 Este projeto foi construído com foco em **performance**, **acessibilidade** e **privacidade**.
 
@@ -43,7 +41,7 @@ Este projeto foi construído com foco em **performance**, **acessibilidade** e *
 
 ---
 
-## 📦 Como Rodar o Projeto
+##  Como Rodar o Projeto
 
 1. **Clone o repositório**:
    ```bash
@@ -59,17 +57,12 @@ Este projeto foi construído com foco em **performance**, **acessibilidade** e *
 
 ---
 
-## 🤝 Equipe
+##  Equipe
 
-- **Henrique Lacerda** - Desenvolvedor Full Stack
-- **[Nome do Membro 2]** - [Função]
-- **[Nome do Membro 3]** - [Função]
+- **Henrique Lacerda Silveira** - Dev full stack e designer
+- **Victor Sampaio Pereira** - Dev full stack
+- **Fernando Naganp Foschiera** - Dev full stack
 
----
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
@@ -83,5 +76,3 @@ Este projeto segue o padrão **Conventional Commits**:
 - `refactor`: Refatoração de código
 
 ---
-
-*Desenvolvido com ❤️ para um futuro mais inclusivo.*
